@@ -135,10 +135,9 @@ Edit settings.
 
 ```yaml
 deploy:
-  type: openshift
-  repo: <repository url>
-  message: [message]
-```
+  type: git
+  repository: git@github.com:Daisy-sanjiu/Daisy-sanjiu.github.io.git
+  branch: master
 
 | Option    | Description                                                                                                 |
 | --------- | ----------------------------------------------------------------------------------------------------------- |
